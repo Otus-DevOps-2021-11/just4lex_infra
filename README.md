@@ -23,6 +23,7 @@ User appuser
 
 #### Проверяем
 ```
+
 $ ssh someinternalhost
 Welcome to Ubuntu 16.04.7 LTS (GNU/Linux 4.4.0-142-generic x86_64)
 
