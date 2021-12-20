@@ -37,4 +37,5 @@ appuser@someinternalhost:~$
 - snapd needed to install CertBot
 - add DNS name to pritunl from sslip.io
 
+
 https://51.250.0.131.sslip.io/
