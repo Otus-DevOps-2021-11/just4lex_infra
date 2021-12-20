@@ -15,7 +15,6 @@ Host bastion
 Hostname 51.250.0.131
 User appuser
 
-
 Host someinternalhost
 ProxyJump appuser@51.250.0.131
 User appuser
