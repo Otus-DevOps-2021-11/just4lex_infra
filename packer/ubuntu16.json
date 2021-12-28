@@ -2,14 +2,14 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/home/apankratov/otus_devops/apankratov-packer.json",
-            "folder_id": "b1gua98vqkrpj0sp16jt",
+            "service_account_key_file": "{{user `yc_serv_acct_key`}}",
+            "folder_id": "{{user `yc_folder`}}",
             "source_image_family": "ubuntu-1604-lts",
             "image_name": "reddit-base-{{timestamp}}",
             "image_family": "reddit-base",
             "ssh_username": "ubuntu",
             "platform_id": "standard-v3",
-            "subnet_id": "e9bo92j5qhu285n4ilec",
+            "subnet_id": "{{user `yc_subnet`}}",
             "use_ipv4_nat": true
         }
     ],
