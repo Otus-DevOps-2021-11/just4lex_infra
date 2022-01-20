@@ -1,0 +1,8 @@
+{
+   "id": "SOMEID",
+   "service_account_id": "SOMEID",
+   "created_at": "2021-12-28T16:38:48.045144675Z",
+   "key_algorithm": "RSA_2048",
+   "public_key": "-----BEGIN PUBLIC KEY----------END PUBLIC KEY-----\n",
+   "private_key": "-----BEGIN PRIVATE KEY----------END PRIVATE KEY-----\n"
+}
